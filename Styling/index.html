@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Task 1 -->
+    <div id="box" onclick="changeBoxColor()">Click me to change color</div>
+    <div class="hover-effect" onmouseover="hoverChange(this)" onmouseout="hoverReset(this)">Hover over me</div>
+    <p class="text-section" id="text">This is a paragraph for styling changes</p>
+    <button onclick="makeTextLarger()">Make Text Larger</button>
+    <button onclick="resetTextStyle()">
+        <div class="reset-hover-effect" onmouseover="hoverChange(this)" onmouseout="hoverReset(this)">
+            Reset Text
+        </div>
+    </button>
+  
+    <!-- Task 3 -->
+    <button onclick="addBorderToBox()">Add Border to Box</button>
+    <button onclick="resetBoxStyle()">
+        <div class="reset-hover-effect" onmouseover="hoverChange(this)" onmouseout="hoverReset(this)">
+            Reset Text
+        </div>
+    </button>
+  
+    
+</body>
+</html>
